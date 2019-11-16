@@ -15,7 +15,7 @@ class ProductController {
 		return await Product.all();
 	}
 
-	// Create/Edit product
+	// create/Edit product
 	async store ({ params, request }) {
 
 		// validations
